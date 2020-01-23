@@ -1,21 +1,21 @@
-def unsafe?(speed)
-  if speed < 40
-    puts "You are speeding"
-    
-  elsif speed => 30
-  puts "Your driving safe"
-  
-else
-  puts "Not valid speed"
-  end
-  
-end
-not_safe = "40mph"
+def unsafe?(speed)	
+	if speed > 60 	
+		true	
+	elsif 	
+		speed < 40	
+		true	
+	else	
+		false	
+	end	
+end	
 
 
 
-def not_safe?(speed)
-	
+
+
+
+def not_safe?(speed)	
+	speed < 40 || speed > 60 ? true : false	
 end
 	
 
