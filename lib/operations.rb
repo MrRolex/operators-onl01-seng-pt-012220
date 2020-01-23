@@ -7,12 +7,10 @@ def unsafe?(speed)
   
 else
   puts "Not valid speed"
+  end
   
 end
-  
-    
-
-end
+not_safe = "40mph"
 
 
 
